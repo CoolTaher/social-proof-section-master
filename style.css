@@ -1,0 +1,149 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    background: url('/images/bg-pattern-top-desktop.svg'),url('/images/bg-pattern-bottom-desktop.svg');
+    background-position: 8rem 0rem , 15rem 10rem;
+    background-repeat: no-repeat,no-repeat;
+   
+}
+.checked{
+    color: orange;
+}
+
+.Main_page{
+    text-align: center;
+    margin: 4rem 0rem 0rem 0rem;
+}
+/* Rating_section */
+
+.Rating_section {
+    height: 15rem;
+    width: 72rem;
+    text-align: center;
+    margin: 0rem 0rem 0rem 6rem;
+}
+
+.Rating_section h2 {
+    color:  hsl(300, 43%, 22%);
+    text-align: left;
+    font-weight: 900;
+    width: 22rem;
+    font-size: 3.1rem;
+    float: left;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.Rating_section p {
+    color:  hsl(303, 10%, 53%);
+    line-height: 1.2rem;
+    font-weight: 550;
+    float: left;
+    margin: 11rem 0rem 0rem -22rem;
+    width: 25rem;
+    text-align: left;
+}
+
+.Ratings{
+    font-size: 16px;
+    font-weight: bolder;
+    float: right;
+    margin: 0rem 0rem 0rem 0rem;
+    height: 20rem;
+}
+
+.Reviews, .Guru, .BestTech {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    height: 0rem;
+    width: 24rem;
+    padding: 1rem 0rem 2rem 3rem;
+    
+    font-weight: bolder;
+}
+.star {
+    margin: 0rem 19rem -1rem -1rem;
+}
+/* .Feedback_section */
+
+.Feedback_section{
+   
+   width: 76rem;
+    margin: 3rem 0rem 0rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Colton, .Irene, .Anne {
+    background-color:hsl(300, 43%, 22%);
+    color: white;
+    padding: 2rem 2rem 0rem;
+    width: 20rem;
+    height: 13rem;
+    border-radius: 8px;
+    
+}
+.Profile {
+    border-radius: 50%;
+    margin: 0rem 17rem 0rem 0rem;
+    height: 3rem;
+    width: 3rem;
+}
+.Feedback_section h2 {
+    font-weight: bold;
+    margin: -2.7rem 0rem 0rem -3.5rem;
+}
+.Feedback_section h4 {
+    color: hsl(333, 80%, 67%);
+    font-weight: lighter;
+    margin: 0.4rem 0rem 2rem -5.7rem;
+}
+.Feedback_section p {
+    font-weight: lighter;
+    margin: 0rem 0rem 2rem 0rem;
+    text-align: left;
+    line-height: 1.3rem;
+}
+
+/* Footer  */
+.attribution{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* media Query */
+@media screen and (max-width: 475px) {
+    body {
+      background:url("/images/bg-pattern-top-mobile.svg"),url("/images/bg-pattern-bottom-mobile.svg");
+      background-position: 2rem 0rem , 58rem 35rem;
+    background-repeat: no-repeat,no-repeat;
+    }
+    .Rating_section{
+        margin: 6rem 0rem 0rem 29rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .Rating_section h2{
+        font-size: 57px;
+        text-align: center;
+    }
+    .Rating_section p{
+        margin: 2rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+    .Feedback_section{
+        display: flex;
+        flex-direction: column;
+        margin: 21rem 0rem 0rem 0rem;
+    }
+    .Ratings{
+        margin: 0rem 0rem 0rem -2rem;
+        justify-content: center;
+    }
+    .Feedback_section{
+        height: 46rem;
+        margin: 20rem 0rem 0rem 4rem;
+    }
+    .attribution{
+        margin: 3rem -55rem 0rem 0rem;
+    }
+  }
